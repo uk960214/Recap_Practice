@@ -1,0 +1,16 @@
+#grid{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+}
+.col{
+	text-align:center;
+}
+#col1{
+	background-color:black;
+}
+#col2{
+	background-color:yellow;
+}
+#col3{
+	background-color:red;
+}

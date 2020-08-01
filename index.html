@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>*twinkle*</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="grid">
+			<div class="col" id="col1">
+				<input type="button" value="black" onclick="
+				var target = document.getElementById('col1')
+				if(this.value === 'black'){
+				target.style.backgroundColor = 'yellow';
+				this.value = 'yellow'
+				} else if(this.value === 'yellow'){
+				target.style.backgroundColor = 'red';
+				this.value = 'red'
+			    } else{
+				target.style.backgroundColor = 'black';
+				this.value = 'black'
+			    }
+				">
+			</div>
+			<div class="col" id="col2">
+				<input type="button" value="yellow" onclick="
+				var target = document.getElementById('col2')
+				if(this.value === 'black'){
+				target.style.backgroundColor = 'yellow';
+				this.value = 'yellow'
+				} else if(this.value === 'yellow'){
+				target.style.backgroundColor = 'red';
+				this.value = 'red'
+			    } else{
+				target.style.backgroundColor = 'black';
+				this.value = 'black'
+			    }
+				">
+			</div>
+			<div class="col" id="col3">
+				<input type="button" value="red" onclick="
+				var target = document.getElementById('col3')
+				if(this.value === 'black'){
+				target.style.backgroundColor = 'yellow';
+				this.value = 'yellow'
+				} else if(this.value === 'yellow'){
+				target.style.backgroundColor = 'red';
+				this.value = 'red'
+			    } else{
+				target.style.backgroundColor = 'black';
+				this.value = 'black'
+			    }
+				">
+			</div>
+		</div>
+	</body>
+</html>
