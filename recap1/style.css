@@ -1,9 +1,14 @@
+html, body {
+	height:100%;
+}
 #grid{
 	display:grid;
 	grid-template-columns:1fr 1fr 1fr;
+	height:100%;
 }
 .col{
 	text-align:center;
+	height: stretch; /*parent container가 100% 돼야 child container가 100% 됨*/
 }
 #col1{
 	background-color:black;
